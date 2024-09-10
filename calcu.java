@@ -10,6 +10,7 @@ public class calculator{
 	subtraction(num1, num2);
 	multiplication(num1, num2);
 	division(num1, num2);
+	modolus(num1, num2);
 
 
  }
@@ -29,6 +30,11 @@ public static void multiplication(int num1, int num2){
 public static void division(int num1, int num2){
     int div = num1 / num2;
     System.out.println("The quotient is: " + div);
+}
+public static void division(int num1, int num2){
+    int div = num1 % num2;
+    System.out.println("The Modolus is: " + mod);
+
 }
 
 
