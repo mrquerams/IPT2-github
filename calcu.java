@@ -8,6 +8,7 @@ public class calculator{
         int num2 = sc.nextInt();
 	addition(num1, num2);
 	subtraction(num1, num2);
+	multiplication(num1, num2);
 
 
  }
@@ -19,7 +20,10 @@ public static void subtraction(int num1, int num2){
     int sub = num1 - num2;
     System.out.println("The difference is: " + sub);
 }
-
+public static void multiplication(int num1, int num2){
+    int multip = num1 * num2;
+    System.out.println("The product is: " + multip);
+}
 
 
 
