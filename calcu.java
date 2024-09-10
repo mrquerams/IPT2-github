@@ -6,6 +6,17 @@ public class calculator{
         int num1 = sc.nextInt();
         System.out.println("Enter second number: ");
         int num2 = sc.nextInt();
+	addition(num1, num2);
+
+
+ }
+public static void addition(int num1, int num2){
+        int sum = num1 + num2;
+        System.out.println("The sum is: " + sum);
+}
+
+
+
 
 }
 
