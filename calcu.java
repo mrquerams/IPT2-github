@@ -7,12 +7,17 @@ public class calculator{
         System.out.println("Enter second number: ");
         int num2 = sc.nextInt();
 	addition(num1, num2);
+	subtraction(num1, num2);
 
 
  }
 public static void addition(int num1, int num2){
         int sum = num1 + num2;
         System.out.println("The sum is: " + sum);
+}
+public static void subtraction(int num1, int num2){
+    int sub = num1 - num2;
+    System.out.println("The difference is: " + sub);
 }
 
 
